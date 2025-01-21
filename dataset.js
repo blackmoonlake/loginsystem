@@ -26,7 +26,7 @@ class DataSet{
 
 let d1 = new DataSet("개발환경구축")//메인 타이틀 //메뉴번호
 d1.set_content("테스트 사진을 진행.")//서브 타이틀
-d1.set_img(0,{imgtitle:"테스트용",imgurl:"https://drive.google.com/file/d/1_hK7YkpZzpu8Phs9lmkyiVc3fkNDpbQc/view?usp=drive_link",imglog:"테스트를 위해 변경.",sourceurl:"https://docs.google.com/document/d/1Nybx0Jow5n-TSLk69SwY37gtVv6JpydM_7_6R32nRR8/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1hIOX7gQBS-AYmxpVekwtIFn3DFSv34Sx/view?usp=drive_link",imglog:"작성된 요구사항 명세.",sourceurl:"https://docs.google.com/document/d/17fyEwskjeoCKdEQmwogusdOjctniDdHLQbUR2eC7Spk/edit?usp=sharing"})//이미지타이틀
 
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
