@@ -25,7 +25,7 @@ class DataSet{
 //  set_content는 입력순서별 인덱스로 0 부터 시작입니다.
 
 let d1 = new DataSet("개발환경구축")//메인 타이틀 //메뉴번호
-d1.set_content("테스트 사진을 진행.")//서브 타이틀
+d1.set_content("요구사항명세서.")//서브 타이틀
 d1.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1hIOX7gQBS-AYmxpVekwtIFn3DFSv34Sx/view?usp=drive_link",imglog:"작성된 요구사항 명세.",sourceurl:"https://docs.google.com/document/d/17fyEwskjeoCKdEQmwogusdOjctniDdHLQbUR2eC7Spk/edit?usp=sharing"})//이미지타이틀
 
 
