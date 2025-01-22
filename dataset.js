@@ -30,7 +30,7 @@ d1.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.googl
 
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
-d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/15GgAeFgW1Cxctk9PbJagUNfG2UkEU4WS/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/1UvD1fZNL9yjLORwxgAW5vD6C-A_RwL1zcNan9RZqmys/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/1atOZWen38JJ7N4dBylDdUnwyfnkZQavF/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/13XskvSFcDaprMUqMknepZLZ-6HQmyAdX3sE-jfOj5jw/edit?usp=drive_link"})//이미지타이틀
 d1.set_img(1,{imgtitle:"스프링프레임워크",imgurl:"https://drive.google.com/file/d/1HRUQhj2Tk6AzIW_NSRD59wGUAduJYTmW/view?usp=drive_link",imglog:"오픈소스 스프링프레임워크 v4.221",sourceurl:""})//이미지타이틀
 
 
