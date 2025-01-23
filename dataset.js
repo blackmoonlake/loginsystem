@@ -48,7 +48,10 @@ data_sets.push(d1)
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
-d2.set_img(0,{imgtitle:"공통모듈 구현 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(0,{imgtitle:"공통모듈 구현 작성",imgurl:"https://drive.google.com/file/d/1T9SDa4pCEgR46Avopjebp7g42zeNpGBa/view?usp=drive_link",imglog:"공통모듈 구현을 위한 로그인 UI 연동 및 로그아웃 UI 연동 구현 방식",sourceurl:"https://docs.google.com/document/d/1ErMo-ZD6ob7l_JBAkq8Ca3LuUUlt86uD4_VNg-ceNo0/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(0,{imgtitle:"시스템 구현을 위한 index 파일",imgurl:"https://drive.google.com/file/d/1UBupsPjfZ6TC4R9q7BWi7Mw6yZhi1mAz/view?usp=drive_link",imglog:"로그인 함수분리 , 로그아웃 함수분리",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"로그인,로그아웃 UI 연동 및 구현",imgurl:"https://drive.google.com/file/d/1tDSv88cExC3QiM3sTPLksnIGX20HlJ-r/view?usp=drive_link",imglog:"연동 및 구현 구축 주석 참조",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"공통 모듈 작동 페이지 구현",imgurl:"https://drive.google.com/file/d/1lybzs11P7D_ZbuLGoFeCSZNKTC0jNT9b/view?usp=drive_link",imglog:"기존 로그인 시스템에서 공통모듈 작동 페이지를 구현 주석 참조",sourceurl:""})//이미지타이틀
 
 
 d2.set_content("테스트케이스를 작성합니다.")

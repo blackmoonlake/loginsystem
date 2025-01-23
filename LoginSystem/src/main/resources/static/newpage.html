@@ -1,32 +1,63 @@
 <!doctype html>
 <html>
 	<head>
-		<title>정보처리기사_로그인시스템구현하기</title>
-		<meta charset="utf-8"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-		<script src="common.js" ></script>
+		<title>정보처리기사_로그인시스템구현하기</title> 
+		<!-- 웹 페이지의 제목을 설정합니다. 브라우저의 탭이나 검색 엔진에서 이 제목이 표시됩니다. -->
+
+		<meta charset="utf-8"/> 
+		<!-- 문서의 문자 인코딩을 UTF-8로 설정합니다. 
+		     한국어, 영어, 기타 언어를 포함한 다양한 문자를 정상적으로 표시할 수 있습니다. -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+		<!-- jQuery 라이브러리를 불러옵니다. 
+		     이를 통해 DOM 조작, AJAX 요청, 이벤트 처리 등을 간편하게 수행할 수 있습니다. -->
+
+		<script src="common.js" ></script> 
+		<!-- common.js라는 사용자 정의 JavaScript 파일을 불러옵니다. 
+		     이 파일은 공통으로 사용하는 함수나 로직이 포함되어 있을 것으로 예상됩니다. -->
 	</head>
 	<body>
-		<h1> 공통모듈 작동 페이지 </h1>
+		<h1> 공통모듈 작동 페이지 </h1> 
+		<!-- 페이지의 제목 역할을 하는 헤더로, 사용자가 현재 페이지가 어떤 기능을 하는지 알 수 있도록 안내합니다. -->
+
 		<div id="uicontainer">
-			<label>아 이 디<input type="text" id="myid"/></label>	
-			<label>비밀번호<input type="password" id="mypw"/></label>
-			<button id="signin">로그인</button>
+			<!-- 로그인 폼을 담고 있는 컨테이너입니다. 로그인 후 다른 UI로 대체될 가능성이 있습니다. -->
+
+			<label>아 이 디<input type="text" id="myid"/></label> 
+			<!-- 아이디 입력 필드입니다. 사용자가 로그인할 아이디를 입력할 수 있습니다. -->
+			
+			<label>비밀번호<input type="password" id="mypw"/></label> 
+			<!-- 비밀번호 입력 필드입니다. 입력한 값이 화면에 보이지 않도록 숨겨지는 필드입니다. -->
+
+			<button id="signin">로그인</button> 
+			<!-- 로그인 버튼으로, 클릭하면 로그인 로직이 실행됩니다. -->
 		</div>
-		<a href="#" id="logoutContainer"></a>
+
+		<a href="#" id="logoutContainer"></a> 
+		<!-- 로그아웃 관련 UI를 포함할 수 있는 요소입니다. 로그인 상태일 때 내용을 변경하기 위해 사용됩니다. -->
 	</body>
+
 	<script>
+		// 로그인 버튼 클릭 이벤트 처리
 		$("#signin").click(async ()=>{
-			const data = await login($("#myid").val(),$("#mypw").val());
-			console.log(data)
-			if(data.message=="로그인성공"){
+			// login 함수 호출, 사용자가 입력한 아이디와 비밀번호를 매개변수로 전달합니다.
+			const data = await login($("#myid").val(), $("#mypw").val());
+
+			console.log(data); 
+			// 서버에서 반환된 데이터를 브라우저 콘솔에 출력하여 디버깅이나 확인에 사용합니다.
+
+			// 서버 응답의 message 값이 "로그인성공"일 경우
+			if (data.message == "로그인성공") {
+				// 로그인 성공 시 환영 메시지를 화면에 표시합니다.
 				$("#uicontainer").text(`${data.member.mid}(${data.member.name}) 
-												님 로그인 하신걸 환영합니다.`)
-				logout($("#logoutContainer"))				
-			}else{
-				alert("아이디와 비밀번호를 다시 확인해 주세요")
+												님 로그인 하신걸 환영합니다.`);
+
+				// 로그아웃 기능을 활성화합니다. logout 함수에 로그아웃 컨테이너를 전달합니다.
+				logout($("#logoutContainer"));
+			} else {
+				// 로그인 실패 시 경고창을 띄워 사용자에게 알립니다.
+				alert("아이디와 비밀번호를 다시 확인해 주세요");
 			}
-		})			
-		
+		});
 	</script>
 </html>
