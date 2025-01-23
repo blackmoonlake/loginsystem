@@ -48,7 +48,7 @@ data_sets.push(d1)
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
-
+d2.set_img(0,{imgtitle:"공통모듈 구현 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
 d2.set_content("테스트케이스를 작성합니다.")
 d2.set_content("단위테스트를 작성합니다.")
 
