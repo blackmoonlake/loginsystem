@@ -56,10 +56,12 @@ d2.set_img(0,{imgtitle:"공통 모듈 작동 페이지 구현",imgurl:"https://d
 
 d2.set_content("테스트케이스를 작성합니다.")
 d2.set_img(1,{imgtitle:"테스트 케이스를 작성",imgurl:"https://drive.google.com/file/d/1gyKcmt--Fsk9NYsizXRWR0mMt1uTRuyW/view?usp=drive_link",imglog:"경계값 분석 테스트 실행 ",sourceurl:"https://docs.google.com/document/d/1J3vlgi0oZrrdKir3biMpFbYhKVvMsFKsYNBrzURQrYo/edit?usp=drive_link"})//이미지타이틀
-d2.set_img(1,{imgtitle:"테스트 케이스를 진행한 java 파일 로직",imgurl:"https://drive.google.com/file/d/1acJ5uWVUnctkFkqMdbP47Tc9VR3DfyyE/view?usp=drive_link",imglog:"테스트 케이스 진행 소스링크,주석 참조 ",sourceurl:"https://docs.google.com/document/d/1J3vlgi0oZrrdKir3biMpFbYhKVvMsFKsYNBrzURQrYo/edit?usp=drive_link"})
+d2.set_img(1,{imgtitle:"테스트 케이스를 진행한 java 파일 로직",imgurl:"https://drive.google.com/file/d/1acJ5uWVUnctkFkqMdbP47Tc9VR3DfyyE/view?usp=drive_link",imglog:"테스트 케이스 진행 소스링크,주석 참조 ",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
 
 d2.set_content("단위테스트를 작성합니다.")
-d2.set_img(2,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(2,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1W_uhPrYhJ05_Rtas3Jj_eVvCY5TpA0Mi/view?usp=drive_link",imglog:"로그인 기능과 로그아웃 기능 성공",sourceurl:""})//이미지타이틀
+d2.set_img(2,{imgtitle:"로그인과 로그아웃",imgurl:"https://drive.google.com/file/d/1m5YVsE0rTrz6KR6L0wKV4gsmd_xtQLDI/view?usp=drive_link",imglog:"로그인 로그아웃 기능 테스트 성공",sourceurl:""})
+d2.set_img(2,{imgtitle:"테스트 로직",imgurl:"https://drive.google.com/file/d/1RT63mMiU__ia60BSrtQuGtRZFGtkQwMt/view?usp=drive_link",imglog:"로직 소스링크 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/LoginSystemApplicationTests.java"})
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
