@@ -67,11 +67,24 @@ data_sets.push(d2)
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
+d3.set_img(0,{imgtitle:"회원가입 페이지 구현",imgurl:"https://drive.google.com/file/d/1zwiWjz802xSsfDrqrOKK6-1ZjUzuVLut/view?usp=drive_link",imglog:"회원가입 버튼 구현",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 페이지 항목 구현",imgurl:"https://drive.google.com/file/d/1zwiWjz802xSsfDrqrOKK6-1ZjUzuVLut/view?usp=drive_link",imglog:"아이디,비밀번호 2번확인,임의성명,임의나이,임의성별,임의거주지역",sourceurl:""})
+d3.set_img(0,{imgtitle:"회원가입 성공",imgurl:"https://drive.google.com/file/d/1u7m3NXpK_i86KATeEWS3O1ORw7ZUBEVg/view?usp=drive_link",imglog:"항목 셀렉 조건 만족 시 회원가입 성공 창 출력",sourceurl:""})
+d3.set_img(0,{imgtitle:"회원가입 연동된 컨트롤러 구현",imgurl:"https://drive.google.com/file/d/1IBm4eYYISvIIWPvkMa8oXkmRrj0EzO_V/view?usp=drive_link",imglog:"회원가입 시스템 구현 파일 소스링크 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
+d3.set_img(0,{imgtitle:"회원가입 조건 항목 등록",imgurl:"https://drive.google.com/file/d/11AXZ0r8dNl_dhs8FNUOS8W1Cur1ur5MQ/view?usp=drive_link",imglog:"회원가입 시 조건 항목과 순서등록 소스참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dto/MemberDTO.java"})
+d3.set_img(0,{imgtitle:"서비스 로직",imgurl:"https://drive.google.com/file/d/1CTgBUFuyMAT6TfTINjb1PQGP01cBIt4L/view?usp=drive_link",imglog:"서비스 로직에서 유효성 점검 소스링크 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberService.java"})
+d3.set_img(0,{imgtitle:"회원가입 시 아이디와 비밀번호 및 등록된 항목 데이터베이스 저장",imgurl:"https://drive.google.com/file/d/1TbwUoQPlMcLZuuPiN012Nfkw_pTj2M-l/view?usp=drive_link",imglog:"아이디,비밀번호,이름,나이,주소 데이터베이스 저장",sourceurl:""})
+d3.set_img(0,{imgtitle:"데이터 베이스 로직",imgurl:"https://drive.google.com/file/d/1TbwUoQPlMcLZuuPiN012Nfkw_pTj2M-l/view?usp=drive_link",imglog:"아이디,비밀번호,이름,나이,주소 데이터베이스 저장",sourceurl:""})
+
+
+
 d3.set_content("회원로그인구현")
+d3.set_img(1,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
+
 d3.set_content("회원리스트연동")
-d3.set_content("테스트케이스 작성")
-d3.set_content("목오브젝트생성 및 테스트 구현")
-d3.set_content("결과보고서 작성")
+d3.set_img(2,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
+
+
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
