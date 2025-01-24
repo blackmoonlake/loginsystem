@@ -92,7 +92,8 @@ d3.set_img(2,{imgtitle:"로그아웃 수신 세션확인",imgurl:"https://drive.
 d3.set_img(2,{imgtitle:"로그아웃 로직",imgurl:"https://drive.google.com/file/d/1Rzb3G2837Scs0DkE1f3Nhh0I524bhgJo/view?usp=drive_link",imglog:"로그아웃 로직 , 소스코드 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
 
 d3.set_content("회원리스트연동")
-d3.set_img(3,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
+d3.set_img(3,{imgtitle:"회원 리스트 출력 구현",imgurl:"https://drive.google.com/file/d/1t50cLpowQ1orNS0KpOxSBiYF1BPeSgfF/view?usp=drive_link",imglog:"로그인 후 회원리스트 데이터 불러오기 가능.",sourceurl:""})//이미지타이틀
+d3.set_img(3,{imgtitle:"회원 리스트 데이터 로직",imgurl:"https://drive.google.com/file/d/18gyyvWY7-zI3emv4V8qQ2MeZVTB_Vnek/view?usp=drive_link",imglog:"회원 데이터 로직 소스링크,주석 참조.",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dto/MemberDTO.java"})
 
 
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
@@ -102,8 +103,11 @@ data_sets.push(d3)
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
 
 d4.set_content("배치스케줄구현")//서브타이틀
+d4.set_img(0,{imgtitle:"배치 스케쥴 구성",imgurl:"https://drive.google.com/file/d/1W5sIerEIg6OE1Fj329Q8ntO4puNcJWtp/view?usp=drive_link",imglog:"배치 스케쥴 구성 소스링크,주석참조.",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/job/BatchConfiguration.java"})
+d4.set_img(0,{imgtitle:"스케쥴 로직",imgurl:"https://drive.google.com/file/d/1ko03n_tdamHljRwZNjdKQAeWURUXKNFs/view?usp=drive_link",imglog:"스케쥴 로직 소스링크 참조.",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/job/BatchSchedule.java"})
 
 d4.set_content("배치프로그램테스트 구현")
+d4.set_img(1,{imgtitle:"배치 프로그렘 테스트 구현",imgurl:"https://drive.google.com/file/d/1hmLM-SxQNFvq6oa_JPbgk_7yvU3VgWPk/view?usp=drive_link",imglog:"프로그램 정상 작동 여부 성공.",sourceurl:""})
 
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d4)
