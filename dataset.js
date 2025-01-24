@@ -87,8 +87,12 @@ d3.set_img(1,{imgtitle:"데이터 베이스에 저장된 아이디와 패스워�
 d3.set_img(1,{imgtitle:"로그인 성공 혹은 실패에 관한 데이터 로직",imgurl:"https://drive.google.com/file/d/1uABRT_vD5FnmOhWCcWA4biwtaKSzyQzQ/view?usp=drive_link",imglog:"로그인 성공 혹은 실패시 .",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
 d3.set_img(1,{imgtitle:"로그인 시스템을 위한 설정 로직",imgurl:"https://drive.google.com/file/d/1uABRT_vD5FnmOhWCcWA4biwtaKSzyQzQ/view?usp=drive_link",imglog:"로그인 시스템 로직 소스코드 참조.",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})
 
+d3.set_content("회원로그아웃구현")
+d3.set_img(2,{imgtitle:"로그아웃 수신 세션확인",imgurl:"https://drive.google.com/file/d/1bWNFOR8fg0gTKhFAq8-sD_61OmAK643P/view?usp=drive_link",imglog:"로그인 세션 만료",sourceurl:""})
+d3.set_img(2,{imgtitle:"로그아웃 로직",imgurl:"https://drive.google.com/file/d/1Rzb3G2837Scs0DkE1f3Nhh0I524bhgJo/view?usp=drive_link",imglog:"로그아웃 로직 , 소스코드 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
+
 d3.set_content("회원리스트연동")
-d3.set_img(2,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
+d3.set_img(3,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
 
 
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
