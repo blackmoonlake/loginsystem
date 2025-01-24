@@ -55,8 +55,8 @@ d2.set_img(0,{imgtitle:"공통 모듈 작동 페이지 구현",imgurl:"https://d
 
 
 d2.set_content("테스트케이스를 작성합니다.")
-d2.set_img(1,{imgtitle:"테스트 케이스를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
-
+d2.set_img(1,{imgtitle:"테스트 케이스를 작성",imgurl:"https://drive.google.com/file/d/1gyKcmt--Fsk9NYsizXRWR0mMt1uTRuyW/view?usp=drive_link",imglog:"경계값 분석 테스트 실행 ",sourceurl:"https://docs.google.com/document/d/1J3vlgi0oZrrdKir3biMpFbYhKVvMsFKsYNBrzURQrYo/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(1,{imgtitle:"테스트 케이스를 진행한 java 파일 로직",imgurl:"https://drive.google.com/file/d/1acJ5uWVUnctkFkqMdbP47Tc9VR3DfyyE/view?usp=drive_link",imglog:"테스트 케이스 진행 소스링크,주석 참조 ",sourceurl:"https://docs.google.com/document/d/1J3vlgi0oZrrdKir3biMpFbYhKVvMsFKsYNBrzURQrYo/edit?usp=drive_link"})
 
 d2.set_content("단위테스트를 작성합니다.")
 d2.set_img(2,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
@@ -79,7 +79,11 @@ d3.set_img(0,{imgtitle:"데이터 베이스 로직",imgurl:"https://drive.google
 
 
 d3.set_content("회원로그인구현")
-d3.set_img(1,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
+d3.set_img(1,{imgtitle:"회원 로그인 페이지 구현",imgurl:"https://drive.google.com/file/d/1dMKpsvYtJt3Ftu6VWZsN9KCo2p1P6Fco/view?usp=drive_link",imglog:"회원 로그인 페이지 구현",sourceurl:""})//이미지타이틀
+d3.set_img(1,{imgtitle:"회원 가입한 아이디로 로그인 성공",imgurl:"https://drive.google.com/file/d/1_9NXjbB9B96-LUzM2b5IjiIc_vQgV-7C/view?usp=drive_link",imglog:"데이터 베이스에 저장된 회원가입된 아이디와 비밀번호를 사용하여 로그인",sourceurl:""})
+d3.set_img(1,{imgtitle:"데이터 베이스에 저장된 아이디와 패스워드가 아닌것을 입력 시 실패",imgurl:"https://drive.google.com/file/d/1MXVFX43AKpVGhiL9YY7k9pm24HowBPx9/view?usp=drive_link",imglog:"아이디가 맞지만 비밀번호가 틀려 로그인이 되지않는다.",sourceurl:""})
+d3.set_img(1,{imgtitle:"로그인 성공 혹은 실패에 관한 데이터 로직",imgurl:"https://drive.google.com/file/d/1uABRT_vD5FnmOhWCcWA4biwtaKSzyQzQ/view?usp=drive_link",imglog:"로그인 성공 혹은 실패시 .",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
+d3.set_img(1,{imgtitle:"로그인 시스템을 위한 설정 로직",imgurl:"https://drive.google.com/file/d/1uABRT_vD5FnmOhWCcWA4biwtaKSzyQzQ/view?usp=drive_link",imglog:"로그인 시스템 로직 소스코드 참조.",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})
 
 d3.set_content("회원리스트연동")
 d3.set_img(2,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
