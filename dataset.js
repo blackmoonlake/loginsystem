@@ -66,7 +66,9 @@ d2.set_img(2,{imgtitle:"단위 테스트 Junit5 진행",imgurl:"https://drive.go
 d2.set_img(2,{imgtitle:"테스트 결과",imgurl:"https://drive.google.com/file/d/1g69jm0qkFp5Hl3PzWm3VaXioZiEwjNuh/view?usp=drive_link",imglog:"에러 발생으로 인해 실패",sourceurl:""})
 
 d2.set_content("테스트 결과 보고서.")
-d2.set_img(3,{imgtitle:"테스트 결과 보고서",imgurl:"https://drive.google.com/file/d/1fgoSXMz8XPF_s-YNatsqrEDw3tvwbZSf/view?usp=drive_link",imglog:"기존파일에서 불러온 테스트파일",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
+d2.set_img(3,{imgtitle:"테스트 결과 보고서",imgurl:"https://drive.google.com/file/d/15Xh9CEnNDp4Tw234oFmlxgKYaivqJun1/view?usp=drive_link",imglog:"자세한 내용 소스코드 참조",sourceurl:"https://docs.google.com/document/d/1WMyxHDvPsPqP7TbDZgc_eUGrcojDxX40UFaXTfmM_G8/edit?usp=drive_link"})
+d2.set_img(3,{imgtitle:"테스트 실행 파일 로직",imgurl:"https://drive.google.com/file/d/1F_3ywGoS6vqIwV7dCxQHK0dTDGgMGGsF/view?usp=drive_link",imglog:"소스코드,주석참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
+
 
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
