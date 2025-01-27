@@ -26,17 +26,17 @@ class DataSet{
 
 let d1 = new DataSet("개발환경구축")//메인 타이틀 //메뉴번호
 d1.set_content("요구사항명세서.")//서브 타이틀
-d1.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1rhZp8feR0_Ci5C_5C68M7pre7L7V3dRM/view?usp=drive_link",imglog:"작성된 요구사항 명세.",sourceurl:"https://docs.google.com/document/d/17fyEwskjeoCKdEQmwogusdOjctniDdHLQbUR2eC7Spk/edit?usp=sharing"})//이미지타이틀
+d1.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/10Pgz020lt93LR4IRocEQjS2XBC0aUM7e/view?usp=drive_link",imglog:"작성된 요구사항 명세.",sourceurl:"https://docs.google.com/document/d/17fyEwskjeoCKdEQmwogusdOjctniDdHLQbUR2eC7Spk/edit?usp=sharing"})//이미지타이틀
 
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
-d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/1atOZWen38JJ7N4dBylDdUnwyfnkZQavF/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/13XskvSFcDaprMUqMknepZLZ-6HQmyAdX3sE-jfOj5jw/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/1e0zTXwcyXeJEFzl0EsjvhAofPKg0sdRh/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/13XskvSFcDaprMUqMknepZLZ-6HQmyAdX3sE-jfOj5jw/edit?usp=drive_link"})//이미지타이틀
 d1.set_img(1,{imgtitle:"스프링프레임워크",imgurl:"https://drive.google.com/file/d/12lDi8yd8zEjwTng3W6FFLo-HOQU9Gyz3/view?usp=drive_link",imglog:"오픈소스 스프링프레임워크 v4.27.0",sourceurl:""})//이미지타이틀
 d1.set_img(1,{imgtitle:"자바 스크립트",imgurl:"https://drive.google.com/file/d/1k31_Sxpnx1R37YGMwjWFnVHhHZiHOlCK/view?usp=drive_link",imglog:"오픈소스 자바JDK v23.0.1",sourceurl:""})
 
 
 d1.set_content("코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다.")
-d1.set_img(2,{imgtitle:"개발환경 구축 명세",imgurl:"https://drive.google.com/file/d/1KdpX54pTVEluqBjlzYZT0AOjFooLlQQi/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(2,{imgtitle:"개발환경 구축 명세",imgurl:"https://drive.google.com/file/d/1S8xtly1GWq8uDvvGorEZxHJ3L0Mhlbsr/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1ziRdjaSLbFCZ-24pfvJ9H0wKF9gg-hOH_r2iQbQ5wXw/edit?usp=drive_link"})//이미지타이틀
 d1.set_img(2,{imgtitle:"개발도구 Spring for Eclipse",imgurl:"https://drive.google.com/file/d/1kIyYVyxHTxP_Dnc4JYJnxFI6sokiGwvd/view?usp=drive_link",imglog:"자바 스프링 서버단 개발을 위한 도구",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"빌드도구 gradle",imgurl:"https://drive.google.com/file/d/1tpWmd1k0pvGs-pDtLMaRcLYZrkPth1dz/view?usp=drive_link",imglog:"프로그램 빌드 및 외부 라이브러리 디펜더시를 위한 도구",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"형상관리도구 git",imgurl:"https://drive.google.com/file/d/1tpQiHRRMT1Adx7xJGxoXgLYTi3IJUTSE/view?usp=drive_link",imglog:"프로그램의 전반적인 개발협업 및 버전관를 위한 도구",sourceurl:""})//이미지타이틀
@@ -49,19 +49,21 @@ let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
 d2.set_img(0,{imgtitle:"공통모듈 구현 작성",imgurl:"https://drive.google.com/file/d/1T9SDa4pCEgR46Avopjebp7g42zeNpGBa/view?usp=drive_link",imglog:"공통모듈 구현을 위한 로그인 UI 연동 및 로그아웃 UI 연동 구현 방식",sourceurl:"https://docs.google.com/document/d/1ErMo-ZD6ob7l_JBAkq8Ca3LuUUlt86uD4_VNg-ceNo0/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(0,{imgtitle:"공통모듈 구현페이지",imgurl:"https://drive.google.com/file/d/1W_uhPrYhJ05_Rtas3Jj_eVvCY5TpA0Mi/view?usp=drive_link",imglog:"로그인 기능과 로그아웃 기능 성공",sourceurl:""})//이미지타이틀
 d2.set_img(0,{imgtitle:"시스템 구현을 위한 index 파일",imgurl:"https://drive.google.com/file/d/1UBupsPjfZ6TC4R9q7BWi7Mw6yZhi1mAz/view?usp=drive_link",imglog:"로그인 함수분리 , 로그아웃 함수분리",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"로그인과 로그아웃",imgurl:"https://drive.google.com/file/d/1m5YVsE0rTrz6KR6L0wKV4gsmd_xtQLDI/view?usp=drive_link",imglog:"로그인 로그아웃 기능 테스트 성공",sourceurl:""})
 d2.set_img(0,{imgtitle:"로그인,로그아웃 UI 연동 및 구현",imgurl:"https://drive.google.com/file/d/1tDSv88cExC3QiM3sTPLksnIGX20HlJ-r/view?usp=drive_link",imglog:"연동 및 구현 구축 주석 참조",sourceurl:""})//이미지타이틀
 d2.set_img(0,{imgtitle:"공통 모듈 작동 페이지 구현",imgurl:"https://drive.google.com/file/d/1lybzs11P7D_ZbuLGoFeCSZNKTC0jNT9b/view?usp=drive_link",imglog:"기존 로그인 시스템에서 공통모듈 작동 페이지를 구현,소스링크& 주석 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem"})//이미지타이틀
-
+d2.set_img(0,{imgtitle:"테스트 로직",imgurl:"https://drive.google.com/file/d/1RT63mMiU__ia60BSrtQuGtRZFGtkQwMt/view?usp=drive_link",imglog:"로직 소스링크 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/LoginSystemApplicationTests.java"})
 
 d2.set_content("테스트케이스를 작성합니다.")
 d2.set_img(1,{imgtitle:"테스트 케이스를 작성",imgurl:"https://drive.google.com/file/d/1gyKcmt--Fsk9NYsizXRWR0mMt1uTRuyW/view?usp=drive_link",imglog:"경계값 분석 테스트 실행 ",sourceurl:"https://docs.google.com/document/d/1J3vlgi0oZrrdKir3biMpFbYhKVvMsFKsYNBrzURQrYo/edit?usp=drive_link"})//이미지타이틀
 d2.set_img(1,{imgtitle:"테스트 케이스를 진행한 java 파일 로직",imgurl:"https://drive.google.com/file/d/1acJ5uWVUnctkFkqMdbP47Tc9VR3DfyyE/view?usp=drive_link",imglog:"테스트 케이스 진행 소스링크,주석 참조 ",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
 
 d2.set_content("단위테스트를 작성합니다.")
-d2.set_img(2,{imgtitle:"단위 테스트를 작성",imgurl:"https://drive.google.com/file/d/1W_uhPrYhJ05_Rtas3Jj_eVvCY5TpA0Mi/view?usp=drive_link",imglog:"로그인 기능과 로그아웃 기능 성공",sourceurl:""})//이미지타이틀
-d2.set_img(2,{imgtitle:"로그인과 로그아웃",imgurl:"https://drive.google.com/file/d/1m5YVsE0rTrz6KR6L0wKV4gsmd_xtQLDI/view?usp=drive_link",imglog:"로그인 로그아웃 기능 테스트 성공",sourceurl:""})
-d2.set_img(2,{imgtitle:"테스트 로직",imgurl:"https://drive.google.com/file/d/1RT63mMiU__ia60BSrtQuGtRZFGtkQwMt/view?usp=drive_link",imglog:"로직 소스링크 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/LoginSystemApplicationTests.java"})
+
+
+
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
