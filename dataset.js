@@ -65,14 +65,18 @@ d2.set_img(2,{imgtitle:"테스트 진행을 위한Test 파일",imgurl:"https://d
 d2.set_img(2,{imgtitle:"단위 테스트 Junit5 진행",imgurl:"https://drive.google.com/file/d/1YeI9C-n4bRzOahUkK3PRFGzciuyzdC5f/view?usp=drive_link",imglog:"에러 2개 발생",sourceurl:""})
 d2.set_img(2,{imgtitle:"테스트 결과",imgurl:"https://drive.google.com/file/d/1g69jm0qkFp5Hl3PzWm3VaXioZiEwjNuh/view?usp=drive_link",imglog:"에러 발생으로 인해 실패",sourceurl:""})
 
+d2.set_content("테스트 결과 보고서.")
+d2.set_img(3,{imgtitle:"테스트 결과 보고서",imgurl:"https://drive.google.com/file/d/1fgoSXMz8XPF_s-YNatsqrEDw3tvwbZSf/view?usp=drive_link",imglog:"기존파일에서 불러온 테스트파일",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
+
+
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
 
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
-d3.set_img(0,{imgtitle:"회원가입 페이지 구현",imgurl:"https://drive.google.com/file/d/1zwiWjz802xSsfDrqrOKK6-1ZjUzuVLut/view?usp=drive_link",imglog:"회원가입 버튼 구현",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"회원가입 페이지 항목 구현",imgurl:"https://drive.google.com/file/d/1zwiWjz802xSsfDrqrOKK6-1ZjUzuVLut/view?usp=drive_link",imglog:"아이디,비밀번호 2번확인,임의성명,임의나이,임의성별,임의거주지역",sourceurl:""})
+d3.set_img(0,{imgtitle:"회원가입 페이지 구현",imgurl:"https://drive.google.com/file/d/1tUVa5uvPf3Ugrr8AnmpSOfpD9Yi79QXk/view?usp=drive_link",imglog:"회원가입 버튼 구현",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 페이지 항목 구현",imgurl:"https://drive.google.com/file/d/1sXebL8QHwNOgQ7LnuWYAsCG7E9F61nL1/view?usp=drive_link",imglog:"아이디,비밀번호 2번확인,임의성명,임의나이,임의성별,임의거주지역",sourceurl:""})
 d3.set_img(0,{imgtitle:"회원가입 성공",imgurl:"https://drive.google.com/file/d/1u7m3NXpK_i86KATeEWS3O1ORw7ZUBEVg/view?usp=drive_link",imglog:"항목 셀렉 조건 만족 시 회원가입 성공 창 출력",sourceurl:""})
 d3.set_img(0,{imgtitle:"회원가입 연동된 컨트롤러 구현",imgurl:"https://drive.google.com/file/d/1IBm4eYYISvIIWPvkMa8oXkmRrj0EzO_V/view?usp=drive_link",imglog:"회원가입 시스템 구현 파일 소스링크 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
 d3.set_img(0,{imgtitle:"회원가입 조건 항목 등록",imgurl:"https://drive.google.com/file/d/11AXZ0r8dNl_dhs8FNUOS8W1Cur1ur5MQ/view?usp=drive_link",imglog:"회원가입 시 조건 항목과 순서등록 소스참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dto/MemberDTO.java"})
