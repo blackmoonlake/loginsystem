@@ -56,9 +56,9 @@ d2.set_img(0,{imgtitle:"로그인,로그아웃 UI 연동 및 구현",imgurl:"htt
 d2.set_img(0,{imgtitle:"공통 모듈 작동 페이지 구현",imgurl:"https://drive.google.com/file/d/1lybzs11P7D_ZbuLGoFeCSZNKTC0jNT9b/view?usp=drive_link",imglog:"기존 로그인 시스템에서 공통모듈 작동 페이지를 구현,소스링크& 주석 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem"})//이미지타이틀
 d2.set_img(0,{imgtitle:"테스트 로직",imgurl:"https://drive.google.com/file/d/1RT63mMiU__ia60BSrtQuGtRZFGtkQwMt/view?usp=drive_link",imglog:"로직 소스링크 참조",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/LoginSystemApplicationTests.java"})
 
-d2.set_content("테스트케이스를 작성합니다.")
-d2.set_img(1,{imgtitle:"테스트 케이스를 작성",imgurl:"https://drive.google.com/file/d/1gyKcmt--Fsk9NYsizXRWR0mMt1uTRuyW/view?usp=drive_link",imglog:"경계값 분석 테스트 실행 ",sourceurl:"https://docs.google.com/document/d/1J3vlgi0oZrrdKir3biMpFbYhKVvMsFKsYNBrzURQrYo/edit?usp=drive_link"})//이미지타이틀
-d2.set_img(1,{imgtitle:"테스트 케이스를 진행한 java 파일 로직",imgurl:"https://drive.google.com/file/d/1acJ5uWVUnctkFkqMdbP47Tc9VR3DfyyE/view?usp=drive_link",imglog:"테스트 케이스 진행 소스링크,주석 참조 ",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
+d2.set_content("테스트 케이스를 작성합니다.")
+d2.set_img(1,{imgtitle:"테스트 케이스를 작성",imgurl:"https://drive.google.com/file/d/1zViV4SqKfdxRvBkQlfZGzhut45LsaUk8/view?usp=drive_link",imglog:"경계값 분석 테스트 실행 ",sourceurl:"https://docs.google.com/document/d/1J3vlgi0oZrrdKir3biMpFbYhKVvMsFKsYNBrzURQrYo/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(1,{imgtitle:"테스트 케이스를 진행한 java 파일 로직",imgurl:"https://drive.google.com/file/d/1h6jkw8dt9BmWAH6ss7GIBaEqkN3qi8p4/view?usp=drive_link",imglog:"테스트 케이스 진행 소스링크,주석 참조 ",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
 
 d2.set_content("단위테스트를 작성합니다.")
 d2.set_img(2,{imgtitle:"테스트 진행을 위한Test 파일",imgurl:"https://drive.google.com/file/d/1fgoSXMz8XPF_s-YNatsqrEDw3tvwbZSf/view?usp=drive_link",imglog:"기존파일에서 불러온 테스트파일",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
