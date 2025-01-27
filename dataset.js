@@ -61,9 +61,9 @@ d2.set_img(1,{imgtitle:"테스트 케이스를 작성",imgurl:"https://drive.goo
 d2.set_img(1,{imgtitle:"테스트 케이스를 진행한 java 파일 로직",imgurl:"https://drive.google.com/file/d/1acJ5uWVUnctkFkqMdbP47Tc9VR3DfyyE/view?usp=drive_link",imglog:"테스트 케이스 진행 소스링크,주석 참조 ",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
 
 d2.set_content("단위테스트를 작성합니다.")
-
-
-
+d2.set_img(2,{imgtitle:"테스트 진행을 위한Test 파일",imgurl:"https://drive.google.com/file/d/1fgoSXMz8XPF_s-YNatsqrEDw3tvwbZSf/view?usp=drive_link",imglog:"기존파일에서 불러온 테스트파일",sourceurl:"https://github.com/blackmoonlake/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
+d2.set_img(2,{imgtitle:"단위 테스트 Junit5 진행",imgurl:"https://drive.google.com/file/d/1YeI9C-n4bRzOahUkK3PRFGzciuyzdC5f/view?usp=drive_link",imglog:"에러 2개 발생",sourceurl:""})
+d2.set_img(2,{imgtitle:"테스트 결과",imgurl:"https://drive.google.com/file/d/1g69jm0qkFp5Hl3PzWm3VaXioZiEwjNuh/view?usp=drive_link",imglog:"에러 발생으로 인해 실패",sourceurl:""})
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
